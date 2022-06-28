@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-63
+19-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-60
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-79
+20-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-65
+21-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:20-62
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-69
+22-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:20-66
+23
+24    <uses-feature android:glEsVersion="0x00030000" />
+24-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-52
+24-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-49
+25    <uses-feature
+25-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-91
+26        android:name="android.hardware.vulkan.version"
+26-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-63
+27        android:required="false" />
+27-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:64-88
+28    <uses-feature
+28-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-88
+29        android:name="android.hardware.touchscreen"
+29-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-60
+30        android:required="false" />
+30-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:61-85
+31    <uses-feature
+31-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-99
+32        android:name="android.hardware.touchscreen.multitouch"
+32-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-71
+33        android:required="false" />
+33-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:72-96
+34    <uses-feature
+34-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-108
+35        android:name="android.hardware.touchscreen.multitouch.distinct"
+35-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-80
+36        android:required="false" />
+36-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:81-105
+37
+38    <application
+38-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-21:17
+39        android:debuggable="true"
+39-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:49-74
+40        android:extractNativeLibs="true"
+40-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:75-107
+41        android:icon="@mipmap/app_icon"
+41-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:108-139
+42        android:label="@string/app_name" >
+42-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:16-48
+43        <activity
+43-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:5-11:16
+44            android:name="com.unity3d.player.UnityPlayerActivity"
+44-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+45            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+45-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:173-354
+46            android:hardwareAccelerated="false"
+46-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:390-425
+47            android:label="@string/app_name"
+47-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:69-101
+48            android:launchMode="singleTask"
+48-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:141-172
+49            android:resizeableActivity="false"
+49-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:355-389
+50            android:screenOrientation="fullSensor" >
+50-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:102-140
+51            <intent-filter>
+51-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:7-9:23
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-61
+52-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-58
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-69
+54-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-66
+55            </intent-filter>
+56
+57            <meta-data
+57-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+58                android:name="android.notch_support"
+58-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+59                android:value="true" />
+59-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+60        </activity>
+61        <activity
+61-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-284
+62            android:name="com.google.ar.core.InstallActivity"
+62-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:15-64
+63            android:configChanges="keyboardHidden|orientation|screenSize"
+63-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:65-126
+64            android:excludeFromRecents="true"
+64-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:127-160
+65            android:exported="false"
+65-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:161-185
+66            android:launchMode="singleTop"
+66-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:186-216
+67            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+67-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:217-281
+68
+69        <meta-data
+69-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-88
+70            android:name="unityplayer.SkipPermissionsDialog"
+70-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-64
+71            android:value="true" />
+71-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:65-85
+72        <meta-data
+72-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-77
+73            android:name="com.google.ar.core"
+73-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-49
+74            android:value="optional" />
+74-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:50-74
+75        <meta-data
+75-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-94
+76            android:name="com.google.ar.core.min_apk_version"
+76-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-65
+77            android:value="181012000" />
+77-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:66-91
+78        <meta-data
+78-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-69
+79            android:name="unity.splash-mode"
+79-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-48
+80            android:value="0" />
+80-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:49-66
+81        <meta-data
+81-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-74
+82            android:name="unity.splash-enable"
+82-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-50
+83            android:value="True" />
+83-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:51-71
+84        <meta-data
+84-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-78
+85            android:name="unity.launch-fullscreen"
+85-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-54
+86            android:value="True" />
+86-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:55-75
+87        <meta-data
+87-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-84
+88            android:name="unity.allow-resizable-window"
+88-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-59
+89            android:value="False" />
+89-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:60-81
+90        <meta-data
+90-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-81
+91            android:name="notch.config"
+91-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-43
+92            android:value="portrait|landscape" />
+92-->C:\Users\Splash\Documents\Games\Easy-AR-project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:44-78
+93    </application>
+94
+95</manifest>
